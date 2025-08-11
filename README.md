@@ -1,3 +1,6 @@
+feature/add-ci
+-e "\n**Last Updated:** $(date)" 
+
 # DevOps: Version-Controlled Project
 
 ## Objective
@@ -31,3 +34,4 @@ Brief description of the change.
 
 ## Related
 - Issue/Task ID (if any)
+main
