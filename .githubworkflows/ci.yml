@@ -1,0 +1,16 @@
+# .github/workflows/ci.yml
+name: CI
+
+on:
+  push:
+    branches: [ main, dev, feature/* ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run a sample command
+      run: echo "Hello from GitHub Actions!"
